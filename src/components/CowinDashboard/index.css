@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 15px;
+}
+.website-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.website-logo {
+  height: 40px;
+}
+.caption {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+.vaccination-coverage-heading {
+  color: #94a3b8;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.vaccination-coverage-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.vaccination-gender-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.vaccination-gender-heading {
+  color: #94a3b8;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.vaccination-age-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.vaccination-age-heading {
+  color: #94a3b8;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.failure-view-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view {
+  height: 250px;
+}
+.failure-view-heading {
+  font-family: 'Bree serif';
+  font-weight: bold;
+  color: #ffffff;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}

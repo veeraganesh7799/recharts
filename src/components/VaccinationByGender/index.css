@@ -1,0 +1,7 @@
+/* Write your CSS here */
+.pieChart-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
